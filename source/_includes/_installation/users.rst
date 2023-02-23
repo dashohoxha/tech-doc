@@ -11,7 +11,7 @@
    ^^^^^
 
    In order to change the password used by the
-   ``zextras@mail.example.com`` user for the Web access, log in to a
+   ``zextras@example.com`` user for the Web access, log in to a
    shell terminal as the ``zextras`` user and execute these two
    commands. The first allows to switch to the ``zextras`` user, with
    the second you actually change the password.
@@ -19,11 +19,11 @@
    .. code:: console
 
       # su - zextras
-      # carbonio prov setpassword zextras@mail.example.com newpassword
+      # carbonio prov setpassword zextras@example.com newpassword
 
    Make sure that ``newpassword`` meets good security criteria.
 
-   .. rubric:: The ``zextras`` and ``zextras@mail.example.com`` users
+   .. rubric:: The ``zextras`` and ``zextras@example.com`` users
 
    There is a clear distinction between these two users, which are
    intended to execute different tasks:
@@ -32,6 +32,6 @@
       This the **unix** account of the administrator and must be
       used to carry out administrative tasks from the command line.
 
-   ``zextras@mail.example.com``
+   ``zextras@example.com``
       This is the default administrator user to be used to access
       the Admin UI and manage |product| from the web interface.
